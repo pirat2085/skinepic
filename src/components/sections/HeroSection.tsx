@@ -1,5 +1,5 @@
 import { FiArrowRight } from 'react-icons/fi';
-import heroImage from '../../assets/images/hero-image.jpeg';
+import heroImage from '../../assets/images/hero-image.png';
 
 export default function HeroSection() {
   return (
