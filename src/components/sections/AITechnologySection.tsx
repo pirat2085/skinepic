@@ -7,10 +7,10 @@ export default function AITechnologySection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
-              Employing the power of AI for skin & hair analysis
+              Employing the power of AI for skin analysis
             </h2>
             <p className="text-gray-700 mb-6">
-              Our app's innovative AI technology examines your skin and hair for over 400 different conditions.
+              Our app's innovative AI technology examines your skin for over 400 different conditions.
               Drawing data from 12 million previous cases embedded into its deep learning infrastructure.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">

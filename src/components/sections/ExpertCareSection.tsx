@@ -8,7 +8,7 @@ export default function ExpertCareSection() {
         <p className="text-gray-700 text-center max-w-3xl mx-auto mb-16">
           After the AI plays its supporting role, our team of 100+ dermatologists creates a personalised regimen.
           These dermatologists hold experience in both curing and correcting mild to acute problems and giving
-          efficient care solutions for the overall maintenance of skin and hair health. Presently, they are
+          efficient care solutions for the overall maintenance of skin health. Presently, they are
           providing continuous monthly care to over 17 Lakh customers in our app.
         </p>
 
@@ -21,7 +21,7 @@ export default function ExpertCareSection() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              1. Skin & Hair Regimen
+              1. Skin Regimen
             </h3>
             <p className="text-gray-600 text-sm">
               Clinically-tested ingredients and customised products to ensure you get visible results.
@@ -40,7 +40,7 @@ export default function ExpertCareSection() {
               2. Nutritional Diet Plan
             </h3>
             <p className="text-gray-600 text-sm">
-              Complimentary meal plans to make sure your daily diet contains food that boosts your skin & hair health.
+              Complimentary meal plans to make sure your daily diet contains food that boosts your skin health.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function ExpertCareSection() {
               4. Regular Doctor Checkups
             </h3>
             <p className="text-gray-600 text-sm">
-              Free routine checkups with a Cureskin doctor to measure your skin & hair progress in detail.
+              Free routine checkups with a Skinepic doctor to measure your skin progress in detail.
             </p>
           </div>
         </div>

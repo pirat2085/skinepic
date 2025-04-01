@@ -8,10 +8,10 @@ export default function ExperienceSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
-              Experience Cureskin and restore your skin & hair health
+              Experience Cureskin and restore your skin health
             </h2>
             <p className="text-gray-700 mb-8">
-              Our app's innovative AI technology examines your skin and hair for over 400 different conditions.
+              Our app's innovative AI technology examines your skin for over 400 different conditions.
               Drawing data from 12 million previous cases embedded into its deep learning infrastructure.
             </p>
             <a

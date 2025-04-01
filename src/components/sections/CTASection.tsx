@@ -8,7 +8,7 @@ export default function CTASection() {
       <div className="container">
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Find out your skin or hair concerns and<br />
+            Find out your skin concerns and<br />
             what a dermatologist advises for them, for free.
           </h2>
 

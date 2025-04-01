@@ -28,7 +28,7 @@ export default function HeroSection() {
             <div className="rounded-full overflow-hidden w-full max-w-md mx-auto">
               <img
                 src={heroImage}
-                alt="Woman using the Cureskin app to analyze her skin"
+                alt="Woman using the Skinepic app to analyze her skin"
                 className="w-full h-auto object-cover"
               />
             </div>

@@ -14,7 +14,7 @@ export default function Footer() {
               <li><Link to="/about-us" className="text-gray-700 hover:text-cureskin-primary text-sm">About us</Link></li>
               <li><Link to="/expertise" className="text-gray-700 hover:text-cureskin-primary text-sm">Our expertise</Link></li>
               <li><Link to="/testimonials" className="text-gray-700 hover:text-cureskin-primary text-sm">Testimonials</Link></li>
-              <li><Link to="/blog" className="text-gray-700 hover:text-cureskin-primary text-sm">Skin & Hair 101</Link></li>
+              <li><Link to="/blog" className="text-gray-700 hover:text-cureskin-primary text-sm">Skin 101</Link></li>
             </ul>
             <div className="flex space-x-4 mt-6">
               <a href="https://www.instagram.com/cureskinapp/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-cureskin-primary">
@@ -52,7 +52,7 @@ export default function Footer() {
               <li><Link to="/dandruff" className="text-gray-700 hover:text-cureskin-primary text-sm">Dandruff Treatment</Link></li>
               <li><Link to="/dark-spots-on-face" className="text-gray-700 hover:text-cureskin-primary text-sm">Dark Spots Treatment</Link></li>
               <li><Link to="/fungal-skin-infection" className="text-gray-700 hover:text-cureskin-primary text-sm">Fungal Infection Treatment</Link></li>
-              <li><Link to="/hair-fall" className="text-gray-700 hover:text-cureskin-primary text-sm">Hair Fall Treatment</Link></li>
+              <li><Link to="/hair-fall" className="text-gray-700 hover:text-cureskin-primary text-sm">Skin Fall Treatment</Link></li>
               <li><Link to="/pimples" className="text-gray-700 hover:text-cureskin-primary text-sm">Pimple Treatment</Link></li>
               <li><Link to="/skin-problems" className="text-gray-700 hover:text-cureskin-primary text-sm">Other Skin Problems</Link></li>
               <li><Link to="/skin-doctor-near-me" className="text-gray-700 hover:text-cureskin-primary text-sm">Skin Doctor Near Me</Link></li>

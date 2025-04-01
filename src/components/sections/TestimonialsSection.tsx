@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
     <section className="py-16 md:py-24 bg-white">
       <div className="container">
         <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">
-          Real skin & hair results
+          Real skin results
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -23,7 +23,7 @@ export default function TestimonialsSection() {
               <h4 className="font-semibold text-gray-800">Vibha, <span className="italic font-normal text-gray-600">Amritsar</span></h4>
             </div>
             <p className="text-gray-700 text-sm mb-4">
-              Cureskin's monthly skin check-ups are fantastic. When I mentioned my pregnancy, the doctor
+              Skinepic's monthly skin check-ups are fantastic. When I mentioned my pregnancy, the doctor
               promptly adjusted my skincare products to ensure my well-being.
             </p>
             <div className="mt-4">
@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
             </div>
             <p className="text-gray-700 text-sm mb-4">
               Comedones on my skin really affected my self-confidence & I was embarrassed to socialise.
-              But Cureskin treatment kit improved my skin concerns drastically!
+              But Skinepic treatment kit improved my skin concerns drastically!
             </p>
             <div className="mt-4">
               <p className="text-sm font-medium text-gray-700 mb-2">Effectively reduced:</p>
@@ -77,7 +77,7 @@ export default function TestimonialsSection() {
               <h4 className="font-semibold text-gray-800">Neelam, <span className="italic font-normal text-gray-600">Punjab (Yoga Instructor)</span></h4>
             </div>
             <p className="text-gray-700 text-sm mb-4">
-              Cureskin not only helped improve my melasma but also enhanced my facial health while educating me
+              Skinepic not only helped improve my melasma but also enhanced my facial health while educating me
               about sustainable skin care methods. Their products are great!
             </p>
             <div className="mt-4">

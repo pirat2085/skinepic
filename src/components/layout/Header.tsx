@@ -2,13 +2,17 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FiArrowRight } from 'react-icons/fi';
+import skinepicLogo from '../../assets/images/skinepic_logo_1.png';
+
+
+
 
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about-us' },
   { name: 'Our Expertise', href: '/expertise' },
   { name: 'Testimonials', href: '/testimonials' },
-  { name: 'Skin & Hair 101', href: '/blog' },
+  { name: 'Skin 101', href: '/blog' },
   { name: 'FAQs', href: '/faqs' },
   { name: 'Contact Us', href: '/contact' },
 ];
@@ -19,9 +23,11 @@ export default function Header() {
   return (
     <header className="bg-white py-4 sticky top-0 z-50 shadow-sm">
       <div className="container flex justify-between items-center">
-        <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-gray-800">cureskin</span>
-        </Link>
+      <Link to="/" className="flex items-center space-x-2">
+        <img src={skinepicLogo} alt="Skinepic Logo" className="h-12 w-auto" />
+        
+      </Link>
+
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-8">
@@ -38,7 +44,7 @@ export default function Header() {
 
         {/* Download App button */}
         <a
-          href="https://app.curesk.in/KSjEbBWqQN"
+          href="https://skinepic.club/app"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center bg-cureskin-primary text-white px-6 py-3 rounded-full hover:bg-cureskin-dark transition-colors"
@@ -75,7 +81,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="https://app.curesk.in/KSjEbBWqQN"
+              href="https://skinepic.club/app"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center bg-cureskin-primary text-white px-6 py-3 rounded-full hover:bg-cureskin-dark transition-colors"

@@ -7,14 +7,14 @@ export default function SkinHealthSection() {
             Shifting focus from 'skincare' to 'skin health'
           </h2>
           <p className="text-gray-700 mb-6">
-            At Cureskin, we studied skin in detail and realized healthy skin and hair are a reflection of several factors
+            At Skinepic, we studied skin in detail and realized healthy skin is a reflection of several factors
             like health, mental well-being, nutrition, and environmental factors. Hence, applying a few random products
-            to give your skin and hair the care it deserves is not enough.
+            to give your skin the care it deserves is not enough.
           </p>
           <p className="text-gray-700">
-            Healthy skin and hair need an expertise-backed and carefully personalized routine. One that is created by
+            Healthy skin needs an expertise-backed and carefully personalized routine. One that is created by
             experienced dermatologists and focuses on individual skin needs, concerns, and lifestyle. An offering that
-            is available exclusively within the Cureskin app.
+            is available exclusively within the Skinepic app.
           </p>
         </div>
       </div>
