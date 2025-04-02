@@ -1,5 +1,5 @@
 import { FiArrowRight } from 'react-icons/fi';
-import appScreenshot from '../../assets/images/Frame.png';
+import appScreenshot from '../../assets/images/frame.png';
 
 export default function ExperienceSection() {
   return (
