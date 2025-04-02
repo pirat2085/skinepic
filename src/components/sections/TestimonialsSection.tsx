@@ -1,5 +1,5 @@
 import beforeAfterImage1 from '../../assets/images/testimonial1.jpg';
-import beforeAfterImage2 from '../../assets/images/testimonial1.jpg';
+import beforeAfterImage2 from '../../assets/images/testimonial2.jpg';
 import beforeAfterImage3 from '../../assets/images/testimonial1.jpg';
 import { FiArrowRight } from 'react-icons/fi';
 
