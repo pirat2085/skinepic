@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Column 1 - Main Links */}
           <div>
-            <h2 className="font-bold mb-6">cureskin</h2>
+            <h2 className="font-bold mb-6">Skinepic</h2>
             <ul className="space-y-4">
               <li><Link to="/" className="text-gray-700 hover:text-cureskin-primary text-sm">Home</Link></li>
               <li><Link to="/about-us" className="text-gray-700 hover:text-cureskin-primary text-sm">About us</Link></li>
