@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { FiArrowRight } from 'react-icons/fi';
@@ -14,13 +14,38 @@ const navLinks = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isMobileScrolled, setIsMobileScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerWidth < 768) {
+        setIsMobileScrolled(window.scrollY > 10);
+      } else {
+        setIsMobileScrolled(false);
+      }
+    };
+
+    handleScroll(); // проверить при первой загрузке
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll); // чтобы ловить смену размеров экрана
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="bg-white py-4 sticky top-0 z-50 shadow-sm">
+    <header className="bg-white py-4 sticky top-0 z-50 shadow-sm transition-all duration-300">
       <div className="max-w-screen-lg mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <img src={skinepicLogo} alt="Skinepic Logo" className="h-[62px] w-auto" />
-
+          <img
+            src={skinepicLogo}
+            alt="Skinepic Logo"
+            className={`w-auto transition-all duration-300 ${
+              isMobileScrolled ? 'h-[46px]' : 'h-[62px]'
+            } md:h-[62px]`}
+          />
         </Link>
 
         {/* Desktop navigation */}
