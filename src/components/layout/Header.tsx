@@ -4,16 +4,11 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { FiArrowRight } from 'react-icons/fi';
 import skinepicLogo from '../../assets/images/skinepic_logo_1.png';
 
-
-
-
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about-us' },
   { name: 'Our Expertise', href: '/expertise' },
   { name: 'Testimonials', href: '/testimonials' },
-  { name: 'Skin 101', href: '/blog' },
-  { name: 'FAQs', href: '/faqs' },
   { name: 'Contact Us', href: '/contact' },
 ];
 
@@ -22,12 +17,11 @@ export default function Header() {
 
   return (
     <header className="bg-white py-4 sticky top-0 z-50 shadow-sm">
-      <div className="container flex justify-between items-center">
-      <Link to="/" className="flex items-center space-x-2">
-        <img src={skinepicLogo} alt="Skinepic Logo" className="h-12 w-auto" />
-        
-      </Link>
+      <div className="max-w-screen-lg mx-auto px-6 flex justify-between items-center">
+        <Link to="/" className="flex items-center space-x-2">
+          <img src={skinepicLogo} alt="Skinepic Logo" className="h-[62px] w-auto" />
 
+        </Link>
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-8">

@@ -13,7 +13,7 @@ function App() {
       <HeroSection />
       <SkinHealthSection />
       <AITechnologySection />
-      <ExpertCareSection />
+      
       <TestimonialsSection />
       <ExperienceSection />
       <CTASection />

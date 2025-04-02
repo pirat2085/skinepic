@@ -1,11 +1,12 @@
-import appScreenshot from '../../assets/images/app-screenshot.jpeg';
+import appScreenshot from '../../assets/images/5.png';
 
 export default function AITechnologySection() {
   return (
-    <section className="py-16 md:py-24 bg-white">
-      <div className="container">
+    <section className="py-16 md:py-24 bg-white overflow-hidden">
+      <div className="max-w-screen-lg mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
+          {/* Text Block */}
+          <div className="max-w-md mx-auto md:mx-0">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">
               Employing the power of AI for skin analysis
             </h2>
@@ -39,16 +40,18 @@ export default function AITechnologySection() {
                   </svg>
                 </div>
                 <h3 className="text-sm font-medium text-gray-800">Dermatologist grade accuracy</h3>
-                <p className="text-xs text-gray-600 mt-1">For skin issues like acne, post-acne & pigmentation concerns</p>
+                <p className="text-xs text-gray-600 mt-1">For skin issues like acne & post-acne</p>
               </div>
             </div>
           </div>
+
+          {/* Image Block */}
           <div>
-            <div className="rounded-2xl overflow-hidden shadow-lg">
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-sm mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={appScreenshot}
-                alt="Cureskin app screenshot showing skin analysis"
-                className="w-full h-auto"
+                alt="Skinepic app screenshot showing skin analysis"
+                className="w-full max-w-full h-auto object-cover"
               />
             </div>
           </div>

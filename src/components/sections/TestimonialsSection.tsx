@@ -1,4 +1,6 @@
-import beforeAfterImage from '../../assets/images/before-after.png';
+import beforeAfterImage1 from '../../assets/images/testimonial1.jpg';
+import beforeAfterImage2 from '../../assets/images/testimonial1.jpg';
+import beforeAfterImage3 from '../../assets/images/testimonial1.jpg';
 import { FiArrowRight } from 'react-icons/fi';
 
 export default function TestimonialsSection() {
@@ -14,7 +16,7 @@ export default function TestimonialsSection() {
           <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
             <div className="mb-6">
               <img
-                src={beforeAfterImage}
+                src={beforeAfterImage1}
                 alt="Before and after treatment results"
                 className="w-full h-auto rounded-lg"
               />
@@ -41,7 +43,7 @@ export default function TestimonialsSection() {
           <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
             <div className="mb-6">
               <img
-                src={beforeAfterImage}
+                src={beforeAfterImage2}
                 alt="Before and after treatment results"
                 className="w-full h-auto rounded-lg"
               />
@@ -68,7 +70,7 @@ export default function TestimonialsSection() {
           <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
             <div className="mb-6">
               <img
-                src={beforeAfterImage}
+                src={beforeAfterImage3}
                 alt="Before and after treatment results"
                 className="w-full h-auto rounded-lg"
               />
@@ -94,7 +96,7 @@ export default function TestimonialsSection() {
 
         <div className="mt-16 text-center">
           <a
-            href="https://app.curesk.in/KSjEbBWqQN"
+            href="https://skinepic.club/app"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-cureskin-primary text-white px-8 py-4 rounded-full hover:bg-cureskin-dark transition-colors"

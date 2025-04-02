@@ -14,7 +14,7 @@ export default function CTASection() {
 
           <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-6">
             <a
-              href="https://app.curesk.in/KSjEbBWqQN"
+              href="https://skinepic.club/app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-cureskin-primary text-white px-8 py-4 rounded-full hover:bg-cureskin-dark transition-colors"
@@ -25,14 +25,14 @@ export default function CTASection() {
 
             <div className="flex items-center space-x-4">
               <a
-                href="https://apps.apple.com/in/app/cureskin_v1/id1447467785"
+                href="https://skinepic.club/app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={appStore} alt="Download on the App Store" className="h-10" />
               </a>
               <a
-                href="https://app.curesk.in/KSjEbBWqQN"
+                href="https://skinepic.club/app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
